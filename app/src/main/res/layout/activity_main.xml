@@ -7,20 +7,21 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/gray_btn"
         android:layout_width="120dp"
         android:layout_height="60dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:text="灰度变换" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/gray_btn"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:maxWidth="50dp"
-        app:srcCompat="@drawable/lena" />
+        android:layout_marginTop="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/tantuo" />
+
 </RelativeLayout>
