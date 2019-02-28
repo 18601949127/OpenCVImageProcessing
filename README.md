@@ -63,7 +63,7 @@ tasks.withType(JavaCompile) {
 
 点击按钮，Imgproc.cvtColor(src, temp , Imgproc.COLOR_RGBA2BGR)  执行结果如下：
 
-<img src=“url” style=“width:200px height:300px” />
+<img src="https://ws3.sinaimg.cn/large/006tKfTcly1g0lurhbem9j30u01ale81.jpg" width="10%" height="10%" /><img src="https://ws3.sinaimg.cn/large/006tKfTcly1g0lurhbem9j30u01ale81.jpg" width="50%" height="50%" />  <img src="https://ws3.sinaimg.cn/large/006tKfTcly1g0lurhbem9j30u01ale81.jpg" width="50%" height="50%" />
 
-![image-20190227224359071](image-20190227224359071.png)
+
 
