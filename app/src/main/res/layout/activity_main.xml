@@ -14,6 +14,15 @@
         android:layout_marginTop="30dp"
         android:text="灰度变换" />
 
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/gray_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="摄像头应用" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"

@@ -22,7 +22,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button processBtn = findViewById(R.id.gray_btn);
+
+
         processBtn.setOnClickListener(this);
         staticLoadCVLibraries();
     }
@@ -34,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Log.i("cv",  "OPEN CV Libraries load......");
         }
         //System.loadLibrary("gray_converter");
+
 
     }
 
